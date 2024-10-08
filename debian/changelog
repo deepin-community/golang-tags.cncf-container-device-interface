@@ -1,5 +1,79 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-tags.cncf-container-device-interface (0.8.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Tighten Breaks/Replaces, Closes: #1078454
+  * Bump Standards-Version
+  * Mark transitional dev package as Multi-Arch: foreign
+
+ -- Reinhard Tartler <siretart@tauware.de>  Mon, 02 Sep 2024 09:09:34 -0400
+
+golang-tags.cncf-container-device-interface (0.8.0-4) unstable; urgency=medium
+
+  * Add transitional package golang-github-container-orchestrated-devices-container-device-interface-dev
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 13 Aug 2024 15:32:42 +0800
+
+golang-tags.cncf-container-device-interface (0.8.0-3) unstable; urgency=medium
+
+  * Rename the package to golang-tags.cncf-container-device-interface
+  * Prvoides golang-github-container-orchestrated-devices-container-device-interface-dev
+  * Update Vcs URL
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 13 Aug 2024 15:13:32 +0800
+
+golang-github-container-orchestrated-devices-container-device-interface (0.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add Conflicts/Replaces/Provides on golang-tags.cncf-container-device-interface-dev
+    Closes: #1078454
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 10 Aug 2024 17:49:08 -0400
+
+golang-github-container-orchestrated-devices-container-device-interface (0.8.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop unused Build-Depends
+  * Update homepage and other URL
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 30 Jul 2024 13:14:27 +0800
+
+golang-github-container-orchestrated-devices-container-device-interface (0.6.2-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sun, 21 Jan 2024 15:12:10 -0500
+
+golang-github-container-orchestrated-devices-container-device-interface (0.6.2-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream Release
+    - rename import to tags.cncf.io, will require changes to imports
+
+ -- Reinhard Tartler <siretart@tauware.de>  Thu, 23 Nov 2023 12:53:39 +0000
+
+golang-github-container-orchestrated-devices-container-device-interface (0.6.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+
+ -- Reinhard Tartler <siretart@tauware.de>  Fri, 27 Oct 2023 06:43:18 -0400
+
+golang-github-container-orchestrated-devices-container-device-interface (0.6.1-1) experimental; urgency=medium
+
+  * New upstream release
+  * Team Upload.
+  * Bump Standards-version
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 23 Sep 2023 08:51:18 -0400
+
+golang-github-container-orchestrated-devices-container-device-interface (0.5.2-2) unstable; urgency=medium
+
+  * Source-only upload for testing migration
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 15 Oct 2022 02:45:19 +0800
+
+golang-github-container-orchestrated-devices-container-device-interface (0.5.2-1) unstable; urgency=medium
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 11 Oct 2022 01:23:56 +0800

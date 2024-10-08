@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
+export DH_GOLANG_EXCLUDES := cmd
+export DH_GOLANG_INSTALL_EXTRA := schema/schema.json schema/defs.json
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang
